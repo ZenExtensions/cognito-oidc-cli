@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Company>Zen Extensions</Company>
+    <Description>Cli to work with cognito open authentication protocol</Description>
+    <RepositoryUrl>https://github.com/ZenExtensions/cognito-oidc-cli</RepositoryUrl>
+    <PackageId>cognito-oidc</PackageId>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>cognito-oidc</ToolCommandName>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Humanizer" Version="2.14.1" />
+    <PackageReference Include="Refit" Version="6.3.2" />
+    <PackageReference Include="ZenExtensions.Spectre.Console" Version="1.4.0" />
+  </ItemGroup>
+
+</Project>

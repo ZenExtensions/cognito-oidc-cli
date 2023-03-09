@@ -1,0 +1,4 @@
+fileignoreconfig:
+- filename: src/ZenExtensions.CognitoOidc.Cli/Commands/GetClientCredentialsCommand.cs
+  checksum: 799c2d5abf2f6ff8b4017dd85fb423f8c85b26c64a0d3adf150e2c98b2919e19
+version: "1.0"
