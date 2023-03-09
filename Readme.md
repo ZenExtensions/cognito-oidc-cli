@@ -1,5 +1,5 @@
 # Cognito Oidc Cli
-[![Actions Status](https://github.com/ZenExtensions/cognito-oidc-cli/workflows/.NET%20Core%20Publish/badge.svg)](https://github.com/ZenExtensions/cognito-oidc-cli/actions) [![Current Version](https://img.shields.io/badge/Version-1.0.0-brightgreen?logo=nuget&labelColor=30363D)](./CHANGELOG.md#100--2023-03-10)
+[![Actions Status](https://github.com/ZenExtensions/cognito-oidc-cli/workflows/.NET%20Core%20Publish/badge.svg)](https://github.com/ZenExtensions/cognito-oidc-cli/actions) [![Current Version](https://img.shields.io/badge/Version-1.0.1-brightgreen?logo=nuget&labelColor=30363D)](./CHANGELOG.md#101--2023-03-10)
 
 Utility command line for [Amazon Cognito user pool OIDC](https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-userpools-server-contract-reference.html).
 

@@ -16,7 +16,6 @@ namespace ZenExtensions.CognitoOidc.Cli
         {
             configurator.AddCommand<GetClientCredentialsCommand>("client-credentials")
                 .WithDescription("Get access token from cognito user pool");
-            configurator.PropagateExceptions();
         }
 
         public override void ConfigureServices(IServiceCollection services, IConfiguration configuration, IHostEnvironment hostingEnvironment)
